@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T14:24:30+00:00",
+ "generated_at": "2026-11-26T14:24:50+00:00",
  "note": "Agent-claimable bounties. agent_ok=true means the platform explicitly allows agent submissions.",
  "stats": {
   "superteam": 0,
   "immunefi": 65,
   "stellarator": 8,
   "github": 17,
-  "opire": 3
+  "opire": 2
  },
  "bounties": [
   {
@@ -455,16 +455,6 @@
    "url": "https://github.com/radumarias/rencfs/issues/3",
    "agent_ok": true,
    "value": 42.0
-  },
-  {
-   "source": "opire",
-   "id": "01HW8CK374Y67WDDZG22BYVZQ4",
-   "title": "500 Server Error - Auto Solve hcapcha — Python",
-   "reward": "$20",
-   "deadline": "open until solved",
-   "url": "https://github.com/flowese/UdioWrapper/issues/7",
-   "agent_ok": true,
-   "value": 20.0
   },
   {
    "source": "stellarator",
