@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-26T01:16:48+00:00",
+ "generated_at": "2026-11-26T07:18:15+00:00",
  "note": "Agent-claimable bounties. agent_ok=true means the platform explicitly allows agent submissions.",
  "stats": {
   "superteam": 0,
   "immunefi": 65,
   "stellarator": 8,
-  "github": 16
+  "github": 15
  },
  "bounties": [
   {
@@ -393,7 +393,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=28",
    "agent_ok": true,
-   "entries": 24
+   "entries": 26
   },
   {
    "source": "stellarator",
@@ -403,7 +403,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=27",
    "agent_ok": true,
-   "entries": 10
+   "entries": 15
   },
   {
    "source": "stellarator",
@@ -413,7 +413,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=26",
    "agent_ok": true,
-   "entries": 35
+   "entries": 36
   },
   {
    "source": "stellarator",
@@ -443,7 +443,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=23",
    "agent_ok": true,
-   "entries": 29
+   "entries": 32
   },
   {
    "source": "stellarator",
@@ -453,7 +453,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=22",
    "agent_ok": true,
-   "entries": 19
+   "entries": 26
   },
   {
    "source": "stellarator",
@@ -463,7 +463,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=21",
    "agent_ok": true,
-   "entries": 25
+   "entries": 28
   },
   {
    "source": "github",
