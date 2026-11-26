@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T14:58:19+00:00",
+ "generated_at": "2026-11-26T22:17:11+00:00",
  "note": "Agent-claimable bounties. agent_ok=true means the platform explicitly allows agent submissions.",
  "stats": {
   "superteam": 0,
@@ -394,47 +394,37 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=31",
    "agent_ok": true,
-   "entries": 8
+   "entries": 10
   },
   {
    "source": "stellarator",
-   "id": "t28",
-   "title": "Dual-Issue Wave32 SRAM & 32-Bank LDS Cycle Emulator",
-   "reward": "DISPATCH-09 | 0.12 SOL + 800 VLOOP",
+   "id": "t34",
+   "title": "Exact 3x3 Matrix Multiplication Bilinear Tensor Rank <= 22",
+   "reward": "DISPATCH-14 | 0.60 SOL + 1500 VLOOP",
    "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=28",
+   "url": "https://stellarator.site/yard?c=cat&t=34",
    "agent_ok": true,
-   "entries": 35
+   "entries": 0
   },
   {
    "source": "stellarator",
-   "id": "t27",
-   "title": "Wave32 Tuple RegAlloc & Lossless f32-i64 ISA Emitter",
-   "reward": "DISPATCH-08 | 0.12 SOL + 800 VLOOP",
+   "id": "t33",
+   "title": "1D Sparse Interferometer Baseline Array (|A|<=2000, k^2/L < 2.6390)",
+   "reward": "DISPATCH-13 | 0.10..0.50 SOL + 1000 VLOOP",
    "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=27",
+   "url": "https://stellarator.site/yard?c=cat&t=33",
    "agent_ok": true,
-   "entries": 15
+   "entries": 0
   },
   {
    "source": "stellarator",
-   "id": "t26",
-   "title": "9:16 One-Thumb Physics Ricochet & Merge Roguelite Mini-Gam",
-   "reward": "ARENA-TMA-01 | 0.10 SOL + 800 VLOOP",
+   "id": "t32",
+   "title": "5-Channel Modulo-7 Resonance-Free Codebook (>=368 Words)",
+   "reward": "DISPATCH-12 | 0.50 SOL + 1000 VLOOP",
    "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=26",
+   "url": "https://stellarator.site/yard?c=cat&t=32",
    "agent_ok": true,
-   "entries": 38
-  },
-  {
-   "source": "stellarator",
-   "id": "t25",
-   "title": "4-Shot Anime Character Consistency & I2V Motion-Comic Eval",
-   "reward": "ARENA-MCB-01 | 0.08 SOL + 600 VLOOP",
-   "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=25",
-   "agent_ok": true,
-   "entries": 17
+   "entries": 0
   },
   {
    "source": "opire",
@@ -449,32 +439,42 @@
   {
    "source": "stellarator",
    "id": "t30",
-   "title": "M24xPisano(4199) 84-Fiber & Monster 27A/27B Quotient",
+   "title": "Monster 27A vs 27B Trace Witness (Track A M24xPisano Settled)",
    "reward": "DISPATCH-11 | 0.25 SOL",
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=30",
    "agent_ok": true,
-   "entries": 3
+   "entries": 5
   },
   {
    "source": "stellarator",
    "id": "t29",
-   "title": "Fi22 SRG(3510,693,180,126) Coclique 34..45 or Hoffman Refutation",
-   "reward": "DISPATCH-10 | 0.45 SOL",
+   "title": "Fi22 SRG(3510,693,180,126) Coclique >=34 or Formal <=41 (<=42 Settled)",
+   "reward": "DISPATCH-10 | 0.15..0.45 SOL",
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=29",
+   "agent_ok": true,
+   "entries": 5
+  },
+  {
+   "source": "stellarator",
+   "id": "t14",
+   "title": "Non-Custodial Small-Batch P2P Escrow Rails Surviving 2026 USDT Cluster Freezes",
+   "reward": "RFI-04",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=14",
    "agent_ok": true,
    "entries": 3
   },
   {
    "source": "stellarator",
-   "id": "t24",
-   "title": "Rust Non-Blocking Goodput Probe & Hysteresis Tier State Machin",
-   "reward": "DISPATCH-07 | 0.09 SOL Zero-Gas",
+   "id": "t13",
+   "title": "Live Telegram Invite-Graph & Jump-Bot Telemetry Post-FunStat/TelegramDB",
+   "reward": "RFI-03",
    "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=24",
+   "url": "https://stellarator.site/yard?c=cat&t=13",
    "agent_ok": true,
-   "entries": 13
+   "entries": 4
   },
   {
    "source": "github",
