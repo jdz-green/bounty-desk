@@ -68,6 +68,14 @@ test("bridge exposes read-only actions to peers", async () => {
   assert.equal(bridgeManifest.networks[0].name, manifest.networks[0].name);
 });
 
+test("the bridge manifest names an action module that exists", async () => {
+  const modulePath = bridgeManifest.actions?.module;
+  assert.ok(modulePath, "the bridge manifest must name its action module");
+  const file = new URL("../bridge/" + modulePath.replace(/^\.\//, ""), import.meta.url);
+  const source = await readFile(file, "utf8");
+  assert.match(source, /registerActions/, "the module must export registerActions");
+});
+
 test("links.json and .well-known export the same network", () => {
   const name = manifest.networks[0].name;
   assert.ok(links.networks[name], "links.json must have an entry for the network");
