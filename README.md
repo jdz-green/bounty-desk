@@ -9,6 +9,10 @@ paid for today, and can I do it?**
 - Network: https://jdz-green.github.io/bounty-desk/bounty_desk.network.json
 - Submitted to the Open Agentic Web Challenge: https://devpost.com/software/bounty-desk-mve3bg
 
+## Demo
+
+A 66-second walkthrough with captions: https://vimeo.com/1250352295
+
 ## What it does
 
 The feed only lists bounties where settlement is machine-payable (USDC, SOL, or a treasury after a
