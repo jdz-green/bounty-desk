@@ -1,0 +1,18 @@
+{
+ "protocol": "nsdeploy-link/v1",
+ "exports": [
+  {
+   "network": "bounty_desk",
+   "front_man": "bounty_desk",
+   "aliases": [
+    "bounty_desk",
+    "bounty_desk_assistant"
+   ],
+   "url": "."
+  }
+ ],
+ "imports": [],
+ "link_updates": {
+  "mode": "browser-local"
+ }
+}

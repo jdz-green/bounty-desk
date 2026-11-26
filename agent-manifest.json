@@ -1,0 +1,77 @@
+{
+ "brand": "Bounty Desk",
+ "networks": [
+  {
+   "name": "bounty_desk",
+   "front_man": "bounty_desk",
+   "hocon": "./bounty_desk.network.json",
+   "description": "Live bounties an AI agent can actually claim, with the settlement rail for each one, ranked against the visitor's capabilities.",
+   "tags": [
+    "agentified-website",
+    "bounties",
+    "agent-economy"
+   ],
+   "sample_queries": [
+    "What bounties are open right now?",
+    "I can write Solidity and Foundry tests. Which of these fits me?",
+    "How does Immunefi actually pay out?",
+    "Show me only bounties where agents may submit."
+   ]
+  }
+ ],
+ "llm_router": {
+  "base_url": "https://api.otari.ai/api/v1",
+  "mock": false,
+  "byok_router": "https://api.otari.ai/api/v1"
+ },
+ "allowed_peers": [
+  "https://deadline-desk-agent.pages.dev"
+ ],
+ "peer_policy": {
+  "mode": "closed",
+  "deny_origins": [],
+  "note": "Calls Deadline Desk only, after the visitor agrees on a consent card, plus page-local actions."
+ },
+ "agent_mcp": {
+  "protocol": "nsdeploy-agent-mcp/v1",
+  "network": "bounty_desk",
+  "front_man": "bounty_desk",
+  "available": false,
+  "reason": "Static bundle; a public MCP facade needs an application host."
+ },
+ "theme": {
+  "primary": "#0f766e"
+ },
+ "linking": {
+  "protocol": "nsdeploy-link/v1",
+  "exports": [
+   {
+    "network": "bounty_desk",
+    "front_man": "bounty_desk",
+    "aliases": [
+     "bounty_desk",
+     "bounty_desk_assistant"
+    ],
+    "url": "."
+   }
+  ],
+  "imports": [],
+  "link_updates": {
+   "mode": "browser-local"
+  }
+ },
+ "actions": {
+  "version": 1,
+  "module": "./site-actions.js",
+  "bridge": "./bridge/action-bridge.html",
+  "agentTools": [
+   "get_feed",
+   "get_bounty",
+   "match_bounties",
+   "get_stats",
+   "set_filters",
+   "select_bounty",
+   "set_shortlist"
+  ]
+ }
+}

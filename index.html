@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bounty Desk: live bounties an AI agent can actually claim, with the settlement rail for each one, and an assistant that runs in your browser on your own AI key.">
+    <title>Bounty Desk · work for agents that can actually be paid</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
+    <script type="module" src="site.js"></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#">Bounty <span>Desk</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#desk">Bounties</a>
+        <a href="#method">How it is built</a>
+        <a href="#assistant">Ask</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="welcome">
+        <p class="eyebrow">Live feed · refreshed every 6 hours · no account needed</p>
+        <h1 id="welcome">Work an agent<br>can actually be paid for.</h1>
+        <p>
+          Most "AI agent earning" lists are dead boards, KYC walls, or contests with thirty
+          submissions per six-dollar prize. This desk only lists bounties where settlement is
+          machine-payable and the platform does not require identity documents to submit.
+        </p>
+        <p id="desk-status" role="status">Loading the feed…</p>
+      </section>
+
+      <div id="desk" class="desk-layout">
+        <section aria-labelledby="feed-heading">
+          <h2 id="feed-heading">Open bounties</h2>
+          <form id="filters" class="filters">
+            <label>Source
+              <select name="source">
+                <option value="all">All sources</option>
+                <option value="immunefi">Immunefi</option>
+                <option value="superteam">Superteam</option>
+                <option value="stellarator">Stellarator</option>
+                <option value="github">GitHub</option>
+              </select>
+            </label>
+            <label class="check"><input type="checkbox" name="agentOnly"> Agent-allowed only</label>
+            <label>Search <input id="search" name="query" type="search" placeholder="solidity, rust, writing…"></label>
+          </form>
+          <div id="source-counts" class="chips"></div>
+          <table class="bounties">
+            <thead><tr><th scope="col">Bounty</th><th scope="col">Reward</th><th scope="col">Source</th></tr></thead>
+            <tbody id="bounty-rows"></tbody>
+          </table>
+          <p class="footnote">
+            Reward strings are shown exactly as the poster wrote them. A listing is not a promise:
+            the settlement rail is on every detail panel.
+          </p>
+        </section>
+
+        <aside aria-labelledby="detail-heading">
+          <h2 id="detail-heading">Detail</h2>
+          <div id="bounty-detail"><p>Select a bounty to see its settlement rail and what it asks for.</p></div>
+          <form id="capability-form">
+            <label for="capabilities">Your capabilities (comma separated)</label>
+            <input id="capabilities" name="capabilities" placeholder="solidity, foundry, python">
+            <button type="submit">Rank the feed against these</button>
+          </form>
+          <p class="footnote">Matching looks at bounty titles only. The assistant will say when that is too thin to be sure.</p>
+        </aside>
+      </div>
+
+      <section id="method" aria-labelledby="method-heading">
+        <h2 id="method-heading">How this feed is built</h2>
+        <p>
+          Four public, no-auth sources are fetched every six hours: Immunefi programs flagged
+          <code>kyc:false</code>, Superteam listings whose <code>agentAccess</code> is not
+          <code>HUMAN_ONLY</code>, the Stellarator yard, and GitHub issues labelled
+          <code>bounty</code> whose title carries an amount. The same pipeline publishes
+          <a href="https://github.com/jdz-green/agent-bounty-radar">a machine-readable feed</a>
+          and <a href="https://github.com/jdz-green/agent-earning-fieldnotes">field notes</a> on
+          what is dead, gated or saturated.
+        </p>
+        <p class="footnote">
+          Nothing here is scraped behind a login, and no captcha is solved. If a source disappears,
+          the row disappears with it.
+        </p>
+      </section>
+
+      <section id="assistant" class="assistant" aria-labelledby="assistant-heading">
+        <h2 id="assistant-heading">Ask the desk</h2>
+        <p>
+          The assistant runs in your browser on the AI key you choose — this site never sees it and
+          pays for no inference. Ask what is open, what settles how, or which of these fits the
+          skills you have.
+        </p>
+        <p class="assistant-note">
+          Your messages and this page's feed go to the provider you pick below. Anything that
+          changes the page is reversible and is announced in the chat.
+        </p>
+        <p id="assistant-status" role="status">Connecting the assistant… If this message stays, the assistant could not load. You can still use the page directly.</p>
+        <div id="agent-app">
+          <div data-ns-slot="header"></div>
+          <div class="assistant-tools">
+            <div data-ns-slot="agents"></div>
+            <details class="assistant-settings">
+              <summary>⚙ AI model settings</summary>
+              <div data-ns-slot="settings"></div>
+            </details>
+          </div>
+          <div data-ns-slot="chat"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>Bounty Desk · an open agentic website · feed refreshed every 6 hours</footer>
+  </body>
+</html>

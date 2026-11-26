@@ -1,0 +1,577 @@
+{
+ "generated_at": "2026-11-26T01:16:48+00:00",
+ "note": "Agent-claimable bounties. agent_ok=true means the platform explicitly allows agent submissions.",
+ "stats": {
+  "superteam": 0,
+  "immunefi": 65,
+  "stellarator": 8,
+  "github": 16
+ },
+ "bounties": [
+  {
+   "source": "immunefi",
+   "id": "sky",
+   "title": "Sky — max $10,000,000",
+   "reward": "$10,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/sky/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 10000000,
+    "High": 100000,
+    "Medium": 5000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "gmx",
+   "title": "GMX — max $5,000,000",
+   "reward": "$5,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/gmx/information/",
+   "agent_ok": true,
+   "min_payout": 250,
+   "tiers": {
+    "Critical": 50000,
+    "High": 25000,
+    "Medium": 10000,
+    "Low": 250
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "rhinofi",
+   "title": "Rhino.fi — max $2,000,000",
+   "reward": "$2,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/rhinofi/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 2000000,
+    "High": 100000,
+    "Medium": 10000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "lido",
+   "title": "Lido — max $2,000,000",
+   "reward": "$2,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/lido/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 2000000,
+    "High": 250000,
+    "Medium": 50000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "fluxfinance",
+   "title": "Flux Finance — max $550,000",
+   "reward": "$550,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/fluxfinance/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 550000,
+    "High": 25000,
+    "Medium": 10000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "metric",
+   "title": "Metric — max $500,000",
+   "reward": "$500,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/metric/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 500000,
+    "High": 50000,
+    "Medium": 10000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "ankr",
+   "title": "Ankr — max $500,000",
+   "reward": "$500,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/ankr/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 500000,
+    "High": 50000,
+    "Medium": 5000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "Aevo",
+   "title": "Aevo — max $300,000",
+   "reward": "$300,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/Aevo/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 300000,
+    "High": 50000,
+    "Medium": 25000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "hydration",
+   "title": "Hydration — max $222,222",
+   "reward": "$222,222 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/hydration/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 222222,
+    "High": 10000,
+    "Medium": 2500,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "sushiswap",
+   "title": "SushiSwap — max $200,000",
+   "reward": "$200,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/sushiswap/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 200000,
+    "High": 20000,
+    "Medium": 5000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "alchemix-1",
+   "title": "Alchemix — max $150,000",
+   "reward": "$150,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/alchemix-1/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 150000,
+    "High": 20000,
+    "Medium": 3000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "synthetix",
+   "title": "Synthetix — max $100,000",
+   "reward": "$100,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/synthetix/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 100000,
+    "High": 50000,
+    "Medium": 1000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "harvest",
+   "title": "Harvest Finance — max $100,000",
+   "reward": "$100,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/harvest/information/",
+   "agent_ok": true,
+   "min_payout": 2500,
+   "tiers": {
+    "Critical": 5000,
+    "High": 10000,
+    "Medium": 5000,
+    "Low": 2500
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "beefyfinance",
+   "title": "Beefy Finance — max $75,000",
+   "reward": "$75,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/beefyfinance/information/",
+   "agent_ok": true,
+   "min_payout": 500,
+   "tiers": {
+    "Critical": 75000,
+    "High": 15000,
+    "Medium": 2000,
+    "Low": 500
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "dawn",
+   "title": "DAWN USD.infra Vault — max $50,000",
+   "reward": "$50,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/dawn/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 50000,
+    "High": 3500,
+    "Medium": 2000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "magpiexyz",
+   "title": "MagpieXYZ — max $50,000",
+   "reward": "$50,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/magpiexyz/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Medium": 4000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "hashflow",
+   "title": "Hashflow — max $50,000",
+   "reward": "$50,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/hashflow/information/",
+   "agent_ok": true,
+   "min_payout": 2500,
+   "tiers": {
+    "Critical": 50000,
+    "Low": 2500
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "derive",
+   "title": "Derive — max $50,000",
+   "reward": "$50,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/derive/information/",
+   "agent_ok": true,
+   "min_payout": 500,
+   "tiers": {
+    "Critical": 50000,
+    "High": 5000,
+    "Medium": 2000,
+    "Low": 500
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "ichi",
+   "title": "Ichi — max $50,000",
+   "reward": "$50,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/ichi/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 50000,
+    "High": 20000,
+    "Medium": 5000,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "charm",
+   "title": "Charm — max $6,000",
+   "reward": "$6,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/charm/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 6000,
+    "High": 3000,
+    "Medium": 1500,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "blockpinetwork",
+   "title": "BlockPI Network — max $5,000",
+   "reward": "$5,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/blockpinetwork/information/",
+   "agent_ok": true,
+   "min_payout": 1000,
+   "tiers": {
+    "Critical": 5000,
+    "High": 1500,
+    "Medium": 1200,
+    "Low": 1000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "sparklend",
+   "title": "Spark — max $5,000,000",
+   "reward": "$5,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/sparklend/information/",
+   "agent_ok": true,
+   "min_payout": 2500,
+   "tiers": {
+    "Critical": 5000000,
+    "High": 100000,
+    "Medium": 2500
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "gnosischain",
+   "title": "Gnosis Chain — max $2,000,000",
+   "reward": "$2,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/gnosischain/information/",
+   "agent_ok": true,
+   "min_payout": 10000,
+   "tiers": {
+    "Critical": 2000000,
+    "High": 50000,
+    "Medium": 10000
+   }
+  },
+  {
+   "source": "immunefi",
+   "id": "staderforeth",
+   "title": "Stader for ETH — max $1,000,000",
+   "reward": "$1,000,000 max",
+   "deadline": "rolling",
+   "url": "https://immunefi.com/bug-bounty/staderforeth/information/",
+   "agent_ok": true,
+   "min_payout": 20000,
+   "tiers": {
+    "Critical": 1000000,
+    "High": 100000,
+    "Medium": 20000
+   }
+  },
+  {
+   "source": "stellarator",
+   "id": "t28",
+   "title": "Dual-Issue Wave32 SRAM & 32-Bank LDS Cycle Emulator",
+   "reward": "DISPATCH-09 | 0.12 SOL + 800 VLOOP",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=28",
+   "agent_ok": true,
+   "entries": 24
+  },
+  {
+   "source": "stellarator",
+   "id": "t27",
+   "title": "Wave32 Tuple RegAlloc & Lossless f32-i64 ISA Emitter",
+   "reward": "DISPATCH-08 | 0.12 SOL + 800 VLOOP",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=27",
+   "agent_ok": true,
+   "entries": 10
+  },
+  {
+   "source": "stellarator",
+   "id": "t26",
+   "title": "9:16 One-Thumb Physics Ricochet & Merge Roguelite Mini-Gam",
+   "reward": "ARENA-TMA-01 | 0.10 SOL + 800 VLOOP",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=26",
+   "agent_ok": true,
+   "entries": 35
+  },
+  {
+   "source": "stellarator",
+   "id": "t25",
+   "title": "4-Shot Anime Character Consistency & I2V Motion-Comic Eval",
+   "reward": "ARENA-MCB-01 | 0.08 SOL + 600 VLOOP",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=25",
+   "agent_ok": true,
+   "entries": 17
+  },
+  {
+   "source": "stellarator",
+   "id": "t24",
+   "title": "Rust Non-Blocking Goodput Probe & Hysteresis Tier State Machin",
+   "reward": "DISPATCH-07 | 0.09 SOL Zero-Gas",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=24",
+   "agent_ok": true,
+   "entries": 13
+  },
+  {
+   "source": "stellarator",
+   "id": "t23",
+   "title": "Multi-Channel Event Kinematics & Rhythm Anomaly Classifier",
+   "reward": "DISPATCH-06 | 0.09 SOL Zero-Gas",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=23",
+   "agent_ok": true,
+   "entries": 29
+  },
+  {
+   "source": "stellarator",
+   "id": "t22",
+   "title": "Offline Protocol Snapshot Derivative Filter & FDV Ranker",
+   "reward": "DISPATCH-05 | 0.12 SOL Zero-Gas",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=22",
+   "agent_ok": true,
+   "entries": 19
+  },
+  {
+   "source": "stellarator",
+   "id": "t21",
+   "title": "Grounded Passage Citation Verifier & Abstention DPO Synth",
+   "reward": "DISPATCH-04 | 0.10 SOL Zero-Gas",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=21",
+   "agent_ok": true,
+   "entries": 25
+  },
+  {
+   "source": "github",
+   "id": "6592427807",
+   "title": "fix(dwarf_trace): Preserve exact column-offset delta invariants across exception handler tables ($250 bounty) [cpython-p",
+   "reward": "$250",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592428189",
+   "title": "ci/plonk_kzg: Fix transcript chunk boundary check and grand-product coset shift witness - Reward $175 USDC",
+   "reward": "$175",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592427646",
+   "title": "fix(dwarf_trace): Resolve trace frame ceiling off-by-one and PEP 626 instruction-envelope residue ($125 bounty) [collect",
+   "reward": "$125",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/1",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6593660372",
+   "title": "[Bounty] ($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof ",
+   "reward": "$75",
+   "deadline": "see issue",
+   "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4398",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592428327",
+   "title": "($75) perf/fix: Align Fiat-Shamir challenge domain separator across multi-proof aggregation (zk-plonk-transcript-verifie",
+   "reward": "$75",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/2",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592038930",
+   "title": "🪙 [Bounty] [0.12 SOL Zero-Gas] Offline Protocol Snapshot Derivative Stripper & Implied-FDV Ranker (t=22)",
+   "reward": "0.12 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/solana-agent-bounties/issues/7",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6590809282",
+   "title": "🪙 [Bounty] [0.12 SOL Zero-Gas] Build a <=8KB Real-Time Solana SPL Mint Anomaly & Rug-Pull Radar Scorer",
+   "reward": "0.12 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/vloop-free-openai-mcp/issues/1",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6590807515",
+   "title": "🪙 [Bounty] [0.12 SOL Zero-Gas] Build a <=8KB Real-Time Solana SPL Mint Anomaly & Rug-Pull Radar Scorer",
+   "reward": "0.12 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/solana-agent-bounties/issues/1",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6594015147",
+   "title": "🎮 [Bounty + Game Arena] [0.10 SOL + 800 VLOOP] TMA-01: 9:16 One-Thumb Physics Ricochet & Merge Roguelite Mini-Game (t=26",
+   "reward": "0.10 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/solana-agent-bounties/issues/13",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592038632",
+   "title": "🪙 [Bounty] [0.10 SOL Zero-Gas] Grounded Passage Citation Verifier & Abstention DPO Pair Synthesizer (t=21)",
+   "reward": "0.10 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/solana-agent-bounties/issues/6",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592647941",
+   "title": "🪙 [Bounty] [0.09 SOL Zero-Gas] Rust Non-Blocking Goodput Probe & Hysteresis Tier Controller (t=24)",
+   "reward": "0.09 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/solana-agent-bounties/issues/9",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6592647654",
+   "title": "🪙 [Bounty] [0.09 SOL Zero-Gas] Multi-Channel 2D Kinematics & Burst-Rhythm Anomaly Verifier (t=23)",
+   "reward": "0.09 SOL",
+   "deadline": "see issue",
+   "url": "https://github.com/incidere/solana-agent-bounties/issues/8",
+   "agent_ok": null
+  }
+ ]
+}

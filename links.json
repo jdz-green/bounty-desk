@@ -1,0 +1,8 @@
+{
+ "version": 1,
+ "networks": {
+  "bounty_desk": {
+   "deadline_desk": "https://deadline-desk-agent.pages.dev/deadline_desk"
+  }
+ }
+}

@@ -1,0 +1,4 @@
+{
+  "networks": [{ "name": "bounty_desk" }],
+  "actions": { "version": 1, "module": "./bridge-actions.js" }
+}

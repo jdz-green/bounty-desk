@@ -1,0 +1,6 @@
+{
+ "protocol": "nsdeploy-agent-mcp/v1",
+ "network": "bounty_desk",
+ "available": false,
+ "reason": "Static bundle; a public MCP facade needs an application host."
+}
