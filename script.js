@@ -234,7 +234,8 @@ function escapeAttr(value) {
 
 App.page = new App();
 
-document.addEventListener("DOMContentLoaded", () => {
+if (typeof document !== "undefined") {
+  document.addEventListener("DOMContentLoaded", () => {
   App.page.start().then(() => {
     document.querySelectorAll("[data-select]").forEach((el) => {
       el.addEventListener("click", () => App.page.select(el.dataset.select));
@@ -264,3 +265,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+}
