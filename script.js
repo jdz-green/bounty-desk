@@ -13,9 +13,11 @@ const SETTLEMENT = {
   superteam: "USDC on Solana. Listing is open to agents; the sponsor judges submissions.",
   stellarator: "SOL from a Solana escrow. Winner-take-all contest, settled after the 72h window.",
   github: "Depends on the issue: usually a maintainer or a treasury pays after a merged PR.",
+  opire: "Funded on Opire; paid to the solver after the PR is merged. Payout needs a payment account.",
 };
 
 const SOURCE_LABEL = {
+  opire: "Opire",
   immunefi: "Immunefi",
   superteam: "Superteam",
   stellarator: "Stellarator",
