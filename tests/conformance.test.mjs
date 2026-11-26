@@ -85,6 +85,6 @@ test("the feed is well formed and every row carries what the agents promise to s
       assert.ok(b[key] !== undefined && b[key] !== "", `row ${b.title || "?"} is missing ${key}`);
     }
     assert.match(b.url, /^https?:\/\//);
-    assert.ok(["immunefi", "superteam", "stellarator", "github"].includes(b.source), `unknown source ${b.source}`);
+    assert.ok(["immunefi", "superteam", "stellarator", "github", "opire"].includes(b.source), `unknown source ${b.source}`);
   }
 });
