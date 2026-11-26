@@ -49,7 +49,10 @@ export class AssistantMount {
       ChatFollow.start(document.querySelector("#agent-app"));
       // Without a key the chat cannot answer yet. This is the same test as the
       // runtime's "API key required" badge in runtime/ui.js.
-      const needsKey = !booted.engine.mockLLM
+      // A publisher-funded router answers without a visitor key, so it must not be
+      // reported as "needs a key". The flag is part of the manifest's llm_router.
+      const publisherFunded = booted.engine.userRouter?.publisherFunded === true;
+      const needsKey = !booted.engine.mockLLM && !publisherFunded
         && (!booted.engine.byokKey || booted.engine.byokKey === "demo");
       status.textContent = needsKey
         ? "Assistant needs your AI provider key. Add it in AI model settings below."
