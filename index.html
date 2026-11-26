@@ -88,6 +88,44 @@
         </p>
       </section>
 
+
+      <section id="spec" aria-labelledby="spec-heading">
+        <h2 id="spec-heading">How this site follows the Open Agentic Web MVP Profile 0.3</h2>
+        <p>
+          Every claim below is a file you can fetch right now. Nothing here needs an account, a
+          server-side runtime, or a central registry.
+        </p>
+        <table class="spec-table">
+          <thead><tr><th scope="col">Profile requirement</th><th scope="col">What this site publishes</th></tr></thead>
+          <tbody>
+            <tr><td>Public agent-manifest.json with name, front_man and the resolved network location</td>
+                <td><a href="agent-manifest.json">agent-manifest.json</a> — one network, <code>bounty_desk</code>, front man <code>bounty_desk</code>, <code>hocon</code> pointing at the resolved JSON, router metadata and peer policy</td></tr>
+            <tr><td>Resolved, data-only network definition (Neuro SAN schema)</td>
+                <td><a href="bounty_desk.network.json">bounty_desk.network.json</a> — three agents, delegation by <code>request</code>, shared rules in <code>commondefs.replacement_strings</code>, no code</td></tr>
+            <tr><td>Peer-link map owned by the publisher</td>
+                <td><a href="links.json">links.json</a> — the symbolic binding <code>deadline_desk</code> to its published network URL</td></tr>
+            <tr><td>Browser execution with a visitor-chosen model and key</td>
+                <td>The runtime in <code>runtime/</code> runs the network in the page; the settings panel accepts a router, model and key (Otari by default), and the key never leaves the browser</td></tr>
+            <tr><td>Peer loading with visitor consent</td>
+                <td>The front agent may call Deadline Desk; the runtime shows a consent card naming the origin before any request leaves this page</td></tr>
+            <tr><td>CORS on public artifacts</td>
+                <td>GitHub Pages serves <code>agent-manifest.json</code>, the network, <code>links.json</code> and the feed with <code>access-control-allow-origin: *</code></td></tr>
+            <tr><td>Action bridge for peer calls into this site</td>
+                <td><a href="bridge/action-bridge.html">bridge/action-bridge.html</a> exposes three read-only actions (<code>get_feed</code>, <code>get_bounty</code>, <code>match_bounties</code>) to any caller origin</td></tr>
+            <tr><td>Discovery metadata</td>
+                <td><code>.well-known/nsdeploy.json</code> and <code>.well-known/nsdeploy-agent.json</code></td></tr>
+            <tr><td>Coded-tool bundle</td>
+                <td>None: this site publishes no executable tool bundle, so there is nothing to sandbox</td></tr>
+          </tbody>
+        </table>
+        <p class="footnote">
+          The conformance checks in <code>tests/conformance.test.mjs</code> assert the parts a machine
+          can check: unique agents, labelled peers, every tool in the manifest registered, bridge
+          actions read-only, links and exports consistent, and every feed row carrying what the
+          agents promise to show.
+        </p>
+      </section>
+
       <section id="assistant" class="assistant" aria-labelledby="assistant-heading">
         <h2 id="assistant-heading">Ask the desk</h2>
         <p>

@@ -42,3 +42,19 @@ Peer-to-peer work routing: let a peer site ask Bounty Desk for work matching its
 **Code:** https://github.com/jdz-green/bounty-desk
 **Feed (public, CORS):** https://jdz-green.github.io/bounty-desk/data/bounties.json
 **Manifest:** https://jdz-green.github.io/bounty-desk/agent-manifest.json
+
+---
+
+## How this site follows the Open Agentic Web specification
+
+- **Manifest.** `agent-manifest.json` names one network (`bounty_desk`), its front man, the resolved network location, the default router, the peer policy and the action module — the fields MVP Profile 0.3 asks a site to publish.
+- **Portable network.** `bounty_desk.network.json` is a resolved, data-only Neuro SAN graph: three agents, plain delegation with a `request` parameter, shared rules in `commondefs.replacement_strings`, and no executable content.
+- **Peer links.** `links.json` maps the symbolic reference `deadline_desk` to that site's published network URL. The publisher owns the file; a visitor's own binding would live in browser storage, not here.
+- **Browser execution and pluggable inference.** The runtime in `runtime/` runs the network in the visitor's browser. The visitor supplies the router, model and key (Otari by default); the key stays in the browser and the site pays for no inference.
+- **Consent before peer contact.** When the front agent calls Deadline Desk, the runtime shows a consent card naming the peer origin, and the request leaves the page only after the visitor agrees.
+- **CORS on public artifacts.** GitHub Pages serves the manifest, the network, `links.json` and the feed with `access-control-allow-origin: *`, so another origin can read them.
+- **Action bridge.** `bridge/action-bridge.html` exposes three read-only actions (`get_feed`, `get_bounty`, `match_bounties`) to callers from any origin, so another agentic site can ask this one for work matching a capability list.
+- **Discovery metadata.** `.well-known/nsdeploy.json` and `.well-known/nsdeploy-agent.json` describe the export; the MCP facade is declared unavailable because the bundle is static.
+- **Coded tools.** None. The site publishes no executable tool bundle, so there is no sandboxed worker to trust.
+
+The machine-checkable half of this is asserted in `tests/conformance.test.mjs`: unique agent names, every peer labelled, every tool in the manifest actually registered with a schema and a known effect, bridge actions read-only and open to `*`, `links.json` and `.well-known` consistent, and every feed row carrying the fields the agents promise.

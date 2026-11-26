@@ -70,3 +70,7 @@ a { color: var(--accent); }
 .assistant-settings summary { cursor: pointer; color: var(--accent); }
 footer { border-top: 1px solid var(--line); padding: 20px 24px 40px; font-size: 13px; color: var(--muted); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.spec-table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0 18px; }
+.spec-table th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); border-bottom: 1px solid var(--line); padding: 8px 6px; }
+.spec-table td { padding: 10px 6px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--muted); }
+.spec-table td:first-child { width: 42%; color: var(--ink); }
