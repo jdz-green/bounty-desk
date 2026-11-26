@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T14:24:50+00:00",
+ "generated_at": "2026-11-26T14:27:38+00:00",
  "note": "Agent-claimable bounties. agent_ok=true means the platform explicitly allows agent submissions.",
  "stats": {
   "superteam": 0,
   "immunefi": 65,
   "stellarator": 8,
   "github": 17,
-  "opire": 2
+  "opire": 0
  },
  "bounties": [
   {
@@ -435,26 +435,6 @@
    "url": "https://stellarator.site/yard?c=cat&t=25",
    "agent_ok": true,
    "entries": 17
-  },
-  {
-   "source": "opire",
-   "id": "01KSXXX60RR76RSSXZXD0F4AGF",
-   "title": "c1work",
-   "reward": "$100",
-   "deadline": "open until solved",
-   "url": "https://github.com/rodrigompy/bugb/issues/1",
-   "agent_ok": true,
-   "value": 100.0
-  },
-  {
-   "source": "opire",
-   "id": "01J42C08V4J78ZAWH8JH2RQS8G",
-   "title": "research implementation for Windows — Rust",
-   "reward": "$42",
-   "deadline": "open until solved",
-   "url": "https://github.com/radumarias/rencfs/issues/3",
-   "agent_ok": true,
-   "value": 42.0
   },
   {
    "source": "stellarator",
