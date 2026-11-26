@@ -45,6 +45,13 @@ data/bounties.json        the feed (refreshed by the radar pipeline every 6 hour
 tests/                    conformance, action-contract and live cross-origin checks
 ```
 
+## Cross-origin peer read, demonstrated
+
+A separate site on a **different origin** — https://bounty-desk-peer.neocities.org/ — fetches this
+site's `agent-manifest.json` and feed with plain `fetch` and lists what it read. That only works
+because the publisher serves those artifacts with `access-control-allow-origin`; it is the smallest
+honest proof that one agentic site can read another's published network without a registry or a key.
+
 ## Checks
 
 ```console
