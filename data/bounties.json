@@ -1,11 +1,12 @@
 {
- "generated_at": "2026-11-26T07:21:10+00:00",
+ "generated_at": "2026-11-26T14:24:09+00:00",
  "note": "Agent-claimable bounties. agent_ok=true means the platform explicitly allows agent submissions.",
  "stats": {
   "superteam": 0,
   "immunefi": 65,
   "stellarator": 8,
-  "github": 15
+  "github": 17,
+  "opire": 3
  },
  "bounties": [
   {
@@ -387,13 +388,23 @@
   },
   {
    "source": "stellarator",
+   "id": "t31",
+   "title": "N=196883 3-Seat Cycle Policy (4KB Py)",
+   "reward": "ARENA-196883 | 0.10 SOL + 800 VLOOP",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=31",
+   "agent_ok": true,
+   "entries": 8
+  },
+  {
+   "source": "stellarator",
    "id": "t28",
    "title": "Dual-Issue Wave32 SRAM & 32-Bank LDS Cycle Emulator",
    "reward": "DISPATCH-09 | 0.12 SOL + 800 VLOOP",
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=28",
    "agent_ok": true,
-   "entries": 26
+   "entries": 35
   },
   {
    "source": "stellarator",
@@ -413,7 +424,7 @@
    "deadline": "72h window (rolling)",
    "url": "https://stellarator.site/yard?c=cat&t=26",
    "agent_ok": true,
-   "entries": 36
+   "entries": 38
   },
   {
    "source": "stellarator",
@@ -426,6 +437,56 @@
    "entries": 17
   },
   {
+   "source": "opire",
+   "id": "01KSXXX60RR76RSSXZXD0F4AGF",
+   "title": "c1work",
+   "reward": "$100",
+   "deadline": "open until solved",
+   "url": "https://github.com/rodrigompy/bugb/issues/1",
+   "agent_ok": true,
+   "value": 100.0
+  },
+  {
+   "source": "opire",
+   "id": "01J42C08V4J78ZAWH8JH2RQS8G",
+   "title": "research implementation for Windows — Rust",
+   "reward": "$42",
+   "deadline": "open until solved",
+   "url": "https://github.com/radumarias/rencfs/issues/3",
+   "agent_ok": true,
+   "value": 42.0
+  },
+  {
+   "source": "opire",
+   "id": "01HW8CK374Y67WDDZG22BYVZQ4",
+   "title": "500 Server Error - Auto Solve hcapcha — Python",
+   "reward": "$20",
+   "deadline": "open until solved",
+   "url": "https://github.com/flowese/UdioWrapper/issues/7",
+   "agent_ok": true,
+   "value": 20.0
+  },
+  {
+   "source": "stellarator",
+   "id": "t30",
+   "title": "M24xPisano(4199) 84-Fiber & Monster 27A/27B Quotient",
+   "reward": "DISPATCH-11 | 0.25 SOL",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=30",
+   "agent_ok": true,
+   "entries": 3
+  },
+  {
+   "source": "stellarator",
+   "id": "t29",
+   "title": "Fi22 SRG(3510,693,180,126) Coclique 34..45 or Hoffman Refutation",
+   "reward": "DISPATCH-10 | 0.45 SOL",
+   "deadline": "72h window (rolling)",
+   "url": "https://stellarator.site/yard?c=cat&t=29",
+   "agent_ok": true,
+   "entries": 3
+  },
+  {
    "source": "stellarator",
    "id": "t24",
    "title": "Rust Non-Blocking Goodput Probe & Hysteresis Tier State Machin",
@@ -436,42 +497,39 @@
    "entries": 13
   },
   {
-   "source": "stellarator",
-   "id": "t23",
-   "title": "Multi-Channel Event Kinematics & Rhythm Anomaly Classifier",
-   "reward": "DISPATCH-06 | 0.09 SOL Zero-Gas",
-   "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=23",
-   "agent_ok": true,
-   "entries": 32
-  },
-  {
-   "source": "stellarator",
-   "id": "t22",
-   "title": "Offline Protocol Snapshot Derivative Filter & FDV Ranker",
-   "reward": "DISPATCH-05 | 0.12 SOL Zero-Gas",
-   "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=22",
-   "agent_ok": true,
-   "entries": 26
-  },
-  {
-   "source": "stellarator",
-   "id": "t21",
-   "title": "Grounded Passage Citation Verifier & Abstention DPO Synth",
-   "reward": "DISPATCH-04 | 0.10 SOL Zero-Gas",
-   "deadline": "72h window (rolling)",
-   "url": "https://stellarator.site/yard?c=cat&t=21",
-   "agent_ok": true,
-   "entries": 28
+   "source": "github",
+   "id": "6623326404",
+   "title": "[350 USDC] Fix ALU64 chunk ceiling boundary and tristate tnum scalar bitmask witness (refine_bpf_tnum_frames)",
+   "reward": "350 USDC",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1",
+   "agent_ok": null
   },
   {
    "source": "github",
-   "id": "6592427807",
-   "title": "fix(dwarf_trace): Preserve exact column-offset delta invariants across exception handler tables ($250 bounty) [cpython-p",
+   "id": "6623326884",
+   "title": "[$250] fix(verifier): Tighten 32-bit subregister zero-extension parity across conditional joins (ebpf-verifier-reg-bound",
    "reward": "$250",
    "deadline": "see issue",
-   "url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/2",
+   "url": "https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/2",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6623325618",
+   "title": "[$200] fix(ftl_ecc): Resolve ZNS frame length boundary and align 64-lane BCH syndrome parity word (unpack_zns_metadata_f",
+   "reward": "$200",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1",
+   "agent_ok": null
+  },
+  {
+   "source": "github",
+   "id": "6623325859",
+   "title": "ci/ftl_ecc: Stabilize polynomial-to-dual-basis trace tag across zone append descriptors - Reward $175 USDC",
+   "reward": "$175",
+   "deadline": "see issue",
+   "url": "https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2",
    "agent_ok": null
   },
   {
@@ -481,15 +539,6 @@
    "reward": "$175",
    "deadline": "see issue",
    "url": "https://github.com/IES-BoilerRoom/zk-plonk-transcript-verifier/issues/1",
-   "agent_ok": null
-  },
-  {
-   "source": "github",
-   "id": "6592427646",
-   "title": "fix(dwarf_trace): Resolve trace frame ceiling off-by-one and PEP 626 instruction-envelope residue ($125 bounty) [collect",
-   "reward": "$125",
-   "deadline": "see issue",
-   "url": "https://github.com/IES-BoilerRoom/cpython-pep626-line-profiler/issues/1",
    "agent_ok": null
   },
   {
@@ -553,24 +602,6 @@
    "reward": "0.10 SOL",
    "deadline": "see issue",
    "url": "https://github.com/incidere/solana-agent-bounties/issues/6",
-   "agent_ok": null
-  },
-  {
-   "source": "github",
-   "id": "6592647941",
-   "title": "🪙 [Bounty] [0.09 SOL Zero-Gas] Rust Non-Blocking Goodput Probe & Hysteresis Tier Controller (t=24)",
-   "reward": "0.09 SOL",
-   "deadline": "see issue",
-   "url": "https://github.com/incidere/solana-agent-bounties/issues/9",
-   "agent_ok": null
-  },
-  {
-   "source": "github",
-   "id": "6592647654",
-   "title": "🪙 [Bounty] [0.09 SOL Zero-Gas] Multi-Channel 2D Kinematics & Burst-Rhythm Anomaly Verifier (t=23)",
-   "reward": "0.09 SOL",
-   "deadline": "see issue",
-   "url": "https://github.com/incidere/solana-agent-bounties/issues/8",
    "agent_ok": null
   }
  ]
